@@ -167,10 +167,6 @@ class replaceChars {
         }
         //== load list
 
-        //String testString = "Test";
-        // char[] stringToCharArray = testString.toCharArray();
-
-
         try {
             String filename = "file.fw";
             BinaryPatcher p = new BinaryPatcher(filename, list_map);//
