@@ -1,9 +1,5 @@
 import java.util.ArrayList;
-
-
 import java.io.*;
-
-
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -85,7 +81,7 @@ class BinaryPatcher {
 
 
     private  String convertHexStringToBinaryString(String theHexString) {
-       //= byte[] byteSequence = new BigInteger(theHexString, 16).toByteArray(); //== this have bad restore when null byte exist inside text
+       //= byte[] byteSequence = new BigInteger(theHexString, 16).toByteArray(); //== This has a bad restore when a null byte exists inside the text
 
         //byte[] byteArray = theHexString.getBytes();
         char[] stringToCharArray = theHexString.toCharArray();
