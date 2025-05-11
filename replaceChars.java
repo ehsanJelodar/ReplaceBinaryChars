@@ -152,7 +152,7 @@ class replaceChars {
                     }
                     else
                     {
-                        System.out.println("Search & replacement size isn't same, line: "+ index +" ignored, because file size May change");
+                        System.out.println("Search & replacement size isn't the same, line: "+ index +" ignored, because the file size May change");
                     }
                 }
             }
